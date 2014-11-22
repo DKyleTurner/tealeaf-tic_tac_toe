@@ -60,25 +60,28 @@ else
   exit
 end
 
-case user_square_selection
-  when user_square_selection == gameboard_square_numbers[0]
-    # puts something
-  when user_square_selection == gameboard_square_numbers[1]
-    # puts something
-  when user_square_selection == gameboard_square_numbers[2]
-    # puts something
-  when user_square_selection == gameboard_square_numbers[3]
-    # puts something
-  when user_square_selection == gameboard_square_numbers[4]
-    # puts something
-  when user_square_selection == gameboard_square_numbers[5]
-    # puts something
-  when user_square_selection == gameboard_square_numbers[6]
-    # puts something
-  when user_square_selection == gameboard_square_numbers[7]
-    # puts something
-  when user_square_selection == gameboard_square_numbers[8]
-    # puts something
-  else
-    puts 'Please choose a number between 1 and 9'
-end
+########## NEED TO ALLOW USER TO CHOOSE A SQUARE TO PUT THEIR 'X' OR 'O' ################
+
+########## NEED TO DISPLAY AN 'X' OR 'O' FOR COMPUTER'S TURN ###################
+
+# Need to figure out a way to get an 'X' or an 'O' onto the board when the user chooses a square
+user_square_display = case user_square_selection
+                      when gameboard_square_numbers[0] then
+                      when gameboard_square_numbers[1] then
+                      when gameboard_square_numbers[2] then
+                      when gameboard_square_numbers[3] then
+                      when gameboard_square_numbers[4] then
+                      when gameboard_square_numbers[5] then
+                      when gameboard_square_numbers[6] then
+                      when gameboard_square_numbers[7] then
+                      when gameboard_square_numbers[8] then
+                      else puts 'Please choose a number between 1 and 9'
+                      end
+
+############ NEED TO CHECK AND SEE IF THE USER OR COMPUTER HAS WON, LOST OR TIED ################
+
+############ IF A 'WIN, LOSS OR TIE' CONDITION IS MET... ####################
+
+############ ASK IF THE USER WOULD LIKE TO PLAY AGAIN #######################
+
+############ IF YES, PLAY AGAIN, IF NO, END GAME ############################
