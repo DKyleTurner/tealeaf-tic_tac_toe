@@ -1,4 +1,8 @@
+Determine the possible winning square number combinations
+
 Ask: 'Hello user, would you like to play tic tac toe?'
+    if the answer is 'no'
+        exit the program
     if the user answers 'yes'
         draw a game board
         ask the user to select a square to play
